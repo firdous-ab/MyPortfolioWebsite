@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafa;
+}
+
+  
+  .header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+  }
+  
+  .editor{
+    font: normal normal normal 16px/1.4em worksans-semibold,'work sans',sans-serif;
+    margin-left: 40px;
+  }
+  .circle{
+    color: #EEA302;
+    font-size: 80px;
+    position: relative;
+    top: 20px;
+  }
+  .editor-name{
+    font: normal normal 600 22px/1.4em worksans-semibold,'work sans',sans-serif;
+    margin: 0 2px;
+  }
+
+  .NavLinks{
+    margin-right: 40px;
+  }
+  .NavLinks ul li {
+    display: inline-block;
+  }
+  
+  .NavLinks a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    font: normal normal 300 16px/24px worksans-semibold,'work sans',sans-serif;
+    transition-duration: 0.5s;
+  }
+  
+  .NavLinks a:hover {
+    color: rgb(142, 82, 58);
+  }
+
+  .footer{
+    width: 95%;
+    margin: 0 40px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(199,199,199);
+  }
+  .contact{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+  }
+  .Follow img{
+      width: 24px;
+      height: 24px;
+      margin: 10px 1px;
+  }
+  
+  .email a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .Copyright a{
+    color: black;
+ }
+
+.grid-layout{
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'e f'
+    ;
+    gap: 95px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 250px;
+}
+
+.grid-layout img{
+    width: 500px;
+    height: 300px;
+}
+
+h1{
+   width: 75%;
+   margin: auto;
+   margin-top: 150px;
+   margin-bottom: 100px;
+   font-size: 50px;
+   font-weight: 500;
+}
+
+h2{
+    font-weight: 500px;  
+}
+
+p{
+  font-weight: 200;
+}
+
+@media (min-width:600px) and (max-width:1300px) {
+    .grid-layout{
+        display: grid;
+        grid-template-areas: 
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+        ;
+        width: 90%;
+        margin: auto;
+    }
+
+    .header{
+      display: flex;
+  }
+  
+  h2 {
+    font-weight: 600;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+  .NavLinks a {
+    border-right: none;
+    border: 1px solid rgb(203, 151, 83);
+    padding: 5px;
+  }
+
+  .contact{
+      width: 85%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-left: 10px;
+    }
+    
+    .Follow img{
+        width: 35px;
+        height: 35px;
+        margin-top: 1px;
+        margin-right: 5px;
+    }
+}
+

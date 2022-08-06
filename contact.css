@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafa;
+}
+
+  
+  .header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+  }
+  
+  .editor{
+    font: normal normal normal 16px/1.4em worksans-semibold,'work sans',sans-serif;
+    margin-left: 40px;
+  }
+  .circle{
+    color: #EEA302;
+    font-size: 80px;
+    position: relative;
+    top: 20px;
+  }
+  .editor-name{
+    font: normal normal 600 22px/1.4em worksans-semibold,'work sans',sans-serif;
+    margin: 0 2px;
+  }
+
+  .NavLinks{
+    margin-right: 40px;
+  }
+  .NavLinks ul li {
+    display: inline-block;
+  }
+  
+  .NavLinks a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    font: normal normal 300 16px/24px worksans-semibold,'work sans',sans-serif;
+    transition-duration: 0.5s;
+  }
+  
+  .NavLinks a:hover {
+    color: rgb(142, 82, 58);
+  }
+
+  .flexCON{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+.left-cont{
+  text-align: left;
+}
+
+  .flexCON div{
+    margin: 50px;
+  }
+
+  .footer{
+    width: 95%;
+    margin: 0 40px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(199,199,199);
+    font-size: medium;
+  }
+  .contact{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+  }
+  .Follow img{
+      width: 24px;
+      height: 24px;
+      margin: 10px 1px;
+  }
+  
+  .email a{
+      text-decoration: none;
+      color: black;
+  }
+
+#submit-btn{
+  width: 125px;
+  height: 125px;
+  border-radius: 60px;
+  border: 0.5px solid black;
+  background-color: rgba(255, 166, 0, 0.895);
+  font-size:large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit-btn:hover{
+  background-color: transparent;
+  transition-duration: 0.7s;
+}
+
+input[type="text"]{
+  border-radius: 7.5px;
+  width: 250px;
+  height: 20px;
+  border: 0.5px solid black;
+  margin-bottom: 15px;
+}
+
+input[type="email"]{
+  border-radius: 7.5px;
+  width: 250px;
+  height: 20px;
+  border: 0.5px solid black;
+  margin-bottom: 15px;
+}
+
+textarea{
+  border-radius: 7.5px;
+  border: 0.5px solid black;
+  outline: none;
+  resize: none;
+}
+
+
+input{
+  border: 1px solid black;
+}
+
+input:hover{
+  border: 2px solid black;
+}
+
+.Form{
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-weight: 300;
+}
+
+.Copyright a{
+   color: black;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width:600px) and (max-width:1300px) {
+  .header{
+      display: flex;  
+  }
+  
+  h2 {
+    font-weight: 600;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+  .NavLinks a {
+    border-right: none;
+    border: 1px solid rgb(203, 151, 83);
+    padding: 5px;
+    border-radius: 6px;
+  }
+
+  .contact{
+      width: 85%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    
+    .Follow img{
+        width: 35px;
+        height: 35px;
+        margin-top: 1px;
+        margin-right: 5px;
+    }
+
+    .Form{
+      display: block;
+      margin: 10px;
+       }
+
+    input[type="text"]{
+      border-radius: 7.5px;
+      width: 250px;
+      height: 20px;
+      border: 0.5px solid black;
+      margin-bottom: 15px;
+    }
+
+    input[type="email"]{
+      border-radius: 7.5px;
+      width: 250px;
+      height: 20px;
+      border: 0.5px solid black;
+      margin-bottom: 15px;
+    }
+
+    textarea{
+      border-radius: 7.5px;
+      border: 0.5px solid black;
+      outline: none;
+      resize: none;
+    }
+
+
+    #submit-btn{
+      border-radius: 7.5px;
+      width: 260px;
+      height: 30px;
+      border: 0.5px solid black;
+      display: block;
+      margin-top: 25px;
+    } 
+
+    label{
+      font-weight: 100px;
+      text-align: center;
+    }
+
+    .flexCON div{
+      margin: 10px;
+      padding: 2px;
+    }
+   
+    input{
+      border: 1px solid black;
+    }
+    
+    input:hover{
+      border: 2px solid black;
+    }
+}
