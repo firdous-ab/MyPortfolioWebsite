@@ -1,2 +1,2 @@
-website is published on https://firdous-ab.github.io/firdous-ab.githubmyWebsite.io/
+website is published on https://firdous-ab.github.io/firdous-ab.githubMyPortfolioWebsite.io/
 
