@@ -66,14 +66,8 @@ body {
   align-items: center;
 }
 
-.left-cont {
-  padding-bottom: 500px;
-  text-align: left;
-  margin-top: 0;
-  margin-right: 250px;
-}
-
 .left-cont div {
+  margin-top: 0;
   padding: 20px 0px;
 }
 
